@@ -17,6 +17,7 @@ main {
     max-width: 840px; 
 }
 aside{
+    position: relative;
     width: 20em;
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.2); 
@@ -29,6 +30,12 @@ aside{
 aside img { 
     width: 200px;
     height: auto;
+}
+
+aside h2 {
+    position: absolute;
+    top: -4px;
+    left: 140px;
 }
 
 main img{
