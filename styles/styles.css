@@ -6,7 +6,7 @@
 /* class selectors */
 .box { 
     margin: 1rem;
-    border: 1px solid rgba (0,0,0,.1);
+    border: 1px solid rgba (0,0,0, 0.1);
     padding: 1rem;
     background-color: #43AA8B;
     color: #F9844A;
@@ -32,7 +32,7 @@ aside img {
 }
 
 main img{
-    float:right;
+    float: right;
     width: 150px;
     height: auto;
 }
@@ -58,7 +58,9 @@ img {
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
-p { padding: 0;}
+p {
+     padding: 0;
+}
 
 footer {
     margin-top: 15px;
