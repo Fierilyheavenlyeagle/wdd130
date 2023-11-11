@@ -1,0 +1,65 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=K2D:wght@200&family=Ubuntu&display=swap');
+
+
+
+:root {
+    --main-color: Orange;
+    --pane-padding: 5px 42px;
+    --heading-font:'K2D', sans-serif;
+    --paragraph-font: 'K2D', sans-serif;
+}
+body{
+    width: 500px;
+}
+
+.hero img {
+    display:block;
+    width: 100%;
+    height: auto;
+}
+
+article{
+    position: absolute;
+    width: 500px;
+    left:530px;
+    height: 100px;
+    opacity: 80%;
+    top: 500px;
+}
+
+article img{
+    float: right;
+    position: relative;
+    background-color: #219EBC ;
+    opacity: 60%;
+    bottom: 120px;
+    left: px;
+    height: 5px;
+    width: 5px;
+}
+header {
+    padding: 20px;
+    background-color: #FFB703;
+    width: 40%;
+}
+h1 {
+    position: absolute;
+    font-family: var(--heading-font) ;
+    color: #FB8500;
+    top: 300px;
+    left:680px;
+   
+}
+h2 {
+    font-family: var(--paragraph-font);
+    color: #023047
+}
+
+p {
+    padding:25px;
+}
+a{
+    text-decoration: none;
+}
+
