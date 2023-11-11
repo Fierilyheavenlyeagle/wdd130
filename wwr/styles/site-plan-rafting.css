@@ -1,37 +1,39 @@
-
-
+/* Import Fonts */
 @import url('https://fonts.googleapis.com/css2?family=K2D:wght@200&display=swap');
-:root{
+
+:root {
     --primary-color: #F8961E;
     --secondary-color: #F9C74F;
     --accent1-color: #F9844A;
     --accent2-color: #F3722C;
 
-    --heading-font:'K2D', sans-serif;
+    --heading-font: 'K2D', sans-serif;
     --paragraph-font: 'K2D', sans-serif;
 
     --nav-background-color: #90BE6D;
     --nav-link-color: #43AA8B;
     --nav-hover-link-color: #4D908E;
-    --nav-hover-background-color:#277DA1;
+    --nav-hover-background-color: #277DA1;
 }
-
 
 body {
     font-family: var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
 }
+
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
+
 header {
     padding: 20px;
     background-color: var(--accent1-color);
 }
+
 p {
-    padding:25 px;
+    padding: 25px; /* Make sure there is no space between the value and 'px' */
 }
 
 nav {
@@ -39,20 +41,20 @@ nav {
     font-size: 1.2rem;
     display: flex;
 }
+
 nav a {
     display: block;
     color: var(--nav-link-color);
     text-decoration: none;
     padding: 1rem;
 }
+
 nav a:link, nav a:visited {
     color: var(--nav-link-color);
 }
+
 nav a:hover {
-    color:var(--nav-hover-link-color);
+    color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
 }
-
-/* hola */
-
 
