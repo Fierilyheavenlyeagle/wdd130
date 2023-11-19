@@ -24,6 +24,7 @@ header, .grid, footer{
 
 header {
     display:block;
+    margin: 1rem auto
 }
 
 main {
