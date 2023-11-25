@@ -1,56 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=K2D:wght@200&family=Ubuntu&display=swap');
 
 :root {
-    --main-color: Orange;
+    --main-color: orange;
     --pane-padding: 5px 42px;
     --heading-font: 'K2D', sans-serif;
     --paragraph-font: 'K2D', sans-serif;
 }
 
 body {
-    width: 100%;
     margin: 0;
     padding: 0;
-}
-
-.hero img {
-    display: block;
-    width: 100%;
-    height: auto;
+    font-family: var(--paragraph-font);
 }
 
 h3 {
     position: absolute;
-    top: 800px;
-    width: 950px;
-    right: 1300px;
-    font-size: 0.8cm;
+    font-family: var(--heading-font);
+    color: white;
+    top: 460px;
+    left: 200px;
+    font-size: 1rem;
+    width: 500px;
 }
 
 h1 {
     position: absolute;
     font-family: var(--heading-font);
-    color: #FB8500;
-    top: 425px;
-    left: 900px;
-    font-size: 10rem;
-}
-
-h2 {
-    position: absolute;
-    top: 1800px;
-    width: 500px;
-    right: 1725px;
-    font-size: 1cm;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-h4 {
-    position: absolute;
-    top: 1900px;
-    width: 900px;
-    right: 1700px;
-    font-size: 0.8cm;
+    color: #fb8500;
+    top: 350px;
+    left: 550px;
+    font-size: 3rem;
 }
 
 h5 {
@@ -64,81 +43,107 @@ h5 {
 article {
     float: right;
     position: absolute;
-    width: 500px;
-    left: 1500px;
-    height: 500px;
+    left: 800px;
     opacity: 0.8;
-    top: 800px;
+    width: 300px;
+    top: 500px;
 }
 
 article img {
     float: right;
-    background-color: #219EBC;
+    background-color: #219ebc;
     opacity: 1;
-    bottom: 500px;
+    bottom: 0px;
     margin: 0 0 15px 15px;
     border: 1px solid rgba(0, 0, 0, .3);
     box-shadow: 0 0 30px #777;
-    width: 50px;
-}
-
-.hera {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
-.hera img {
-    position: relative;
-    width: 500px;
-    left: 1000px;
-    height: 500px;
-    opacity: 0.8;
-    top: 0px;
-}
-
-.heru {
-    position: absolute;
-    align-items: center;
-    justify-content: center;
-    margin-top: 5px;
-    width: 100vw;
-    grid-template-rows: repeat(auto-fill, minmax(300px, 300px));
-    width: 100%;
-    height: auto;
-    left: 575px;
-    row-gap: 20px;
-}
-
-.heru img {
     width: 300px;
-    height: 300px;
-    object-fit: cover;
-    object-position: center;
+}
+
+.flexbox-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flexbox-item {
+    width: 250px;
+    margin: 10px;
+    border: 3px solid #333;
+    background-color: #eee;
+}
+
+.flexbox-item-1 {
+    min-height: 100px;
+}
+
+.flexbox-item-2 {
+    min-height: 200px;
+}
+
+.flexbox-item-2 img {
+    width: 250px;
+}
+
+.flexbox-item-3 {
+    min-height: 100px;
+}
+
+.flexbox-images {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flexbox-image {
+    width: 150px;
+    margin: 10px;
+    border: 3px solid #333;
+    background-color: #eee;
+}
+
+.flexbox-img-1 {
+    min-height: 100px;
+}
+
+.flexbox-img-1 img {
+    width: 165px;
+    height: 140px;
+}
+
+.flexbox-img-2,
+.flexbox-img-3,
+.flexbox-img-4,
+.flexbox-img-5 {
+    min-height: 100px;
+}
+
+.flexbox-img-2 img,
+.flexbox-img-3 img,
+.flexbox-img-4 img,
+.flexbox-img-5 img {
+    width: 165px;
+    height: 140px;
 }
 
 header {
-    margin: 1rem auto;
+    margin: 2rem auto;
     display: grid;
     grid-template-columns: 200px 1fr;
     align-items: center;
     border-bottom: 1px solid #ccc;
-    max-width: 1000px;
     padding: 20px;
-    background-color: #FFB703;
-    width: 40%;
+    background-color: #ffb703;
+    width: 50%;
 }
 
 .logo img {
     margin: 0 0.25rem 0 1rem;
-    height: auto;
-    width: 64px;
+    height: 100px;
+    width: 34px;
 }
 
 nav {
-    margin: 1cm;
     text-align: center;
-    font-size: 1.0cm;
+    font-size: 1.5rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -174,7 +179,7 @@ div {
 
 footer {
     background-color: #111;
-    margin: 300px;
+    margin: 50px;
 }
 
 .sociallinks {
