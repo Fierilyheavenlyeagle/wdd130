@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=K2D:wght@200&family=Ubuntu&display=swap');
+
+:root {
+    --main-color: orange;
+    --pane-padding: 5px 42px;
+    --heading-font: 'K2D', sans-serif;
+    --paragraph-font: 'K2D', sans-serif;
+}
+
+body {
+    margin: 0;
+    font-family: var(--paragraph-font);
+    flex-direction: column;
+    min-height: 100vh;  
+}
+
+.hero {
+    position:relative;
+    margin: 0;
+    height: 100vh;
+    right: 225px;
+    right: 275px;
+
+}
+
+.container{
+    text-align: center
+}
+.container img {
+    max-width: 100%;
+    max-height: 100%;
+    display: inline-block;
+}
+
+h3 {
+    position: absolute;
+    font-family: var(--heading-font);
+    color: black;
+    top: 20px;
+    left: 20px;
+    font-size: 1rem;
+    width: 500px;
+}
+
+h1 {
+    position: absolute;
+    font-family: var(--heading-font);
+    color: #fb8500;
+    top: 10px;
+    left: 980px;
+    font-size: 2rem;
+}
+
+h5 {
+    position: absolute;
+    bottom: 300px;
+    width: 900px;
+    right: 1725px;
+    font-size: 0.8cm;
+}
+
+article {
+    float: right;
+    position: absolute;
+    left: 900px;
+    width: 300px;
+    top: 150px;
+}
+
+
+.flexbox-container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 70px;
+}
+ 
+h2 {
+    font-size: 1rem;
+}
+h4 {
+    font-size: 0.6rem;
+}
+
+.flexbox-item {
+    width: 250px;
+    margin: 10px;
+    border: 3px solid #333;
+    background-color: #eee;
+}
+
+.flexbox-item-1 {
+    min-height: 100px;
+    font-size: 0.2rem;
+}
+.flexbox-item-1 img {
+    width: 250px;
+}
+
+.flexbox-item-2 {
+    min-height: 200px;
+}
+
+.flexbox-item-2 img {
+    width: 250px;
+}
+
+.flexbox-item-3 {
+    min-height: 100px;
+}
+.flexbox-item-3 img {
+    width: 250px;
+}
+
+
+header {
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding: 20px;
+    background-color: #ffb703;
+    width: 50%;
+}
+
+.logo img {
+    margin: 0 0.25rem 0 1rem;
+    height: 100px;
+    width: 34px;
+}
+
+nav {
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 2px;
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+}
+
+.navigation li {
+    flex: 1 1 100%;
+}
+
+.navigation a {
+    display: block;
+    color: navy;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    color: tomato;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+div.contactus {
+    width: 10vw;
+    margin: 1rem auto;
+    background-color: #ffffff;
+    padding: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    position: relative;
+    left: 100px;
+}
+
+div {
+    width: 75vw;
+    margin: 1rem auto;
+    background-color: #ffffff;
+    padding: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+footer {
+    background-color: #111;
+    margin: 50px;
+}
+
+.sociallinks {
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+
+.socialicons {
+    display: flex;
+    justify-content: center;
+}
+
+.socialicons a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.socialicons a i {
+    font-size: 2em;
+    color: #111;
+    opacity: 0.9;
+}
+
+.socialicons a:hover {
+    background-color: #111;
+    transition: 0.5s;
+}
+
+.socialicons a:hover i {
+    color: white;
+    transition: 0.5s;
+}
+
+.FooterBottom {
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+
+.FooterBottom p {
+    color: white;
+}
+
+footer {
+    background-color: orange;
+    color: aliceblue;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-top: auto;
+    
+    
+}
+.contactlink{
+    position: absolute;
+    top: 330px;
+    left: 920px;
+}
+
+.contactus a {
+    position: absolute;
+    text-decoration: none;
+    background-color: white;
+    font-size: 1rem;
+    margin: black;
+}
+.contactus a i {
+    color: #111;
+    opacity: 0.9;
+}
+
+.contactus a:hover {
+    background-color:orange;
+    transition: 0.5s;
+}
+
+.contactus a:hover i {
+    color: rgb(255, 162, 55);
+    transition: 0.5s;
+}
+table{
+    border-collapse: collapse;
+    position: relative;
+    left: 440px;
+    
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #333 ;
+   
+  }
+
+thead,
+
+tfoot {
+  background-color: #333;
+  color: #fff;
+}
+
+caption{
+    font-weight: bold;
+    font-size: smaller; 
+    color:navy;
+    font-variant: small-caps;
+}
