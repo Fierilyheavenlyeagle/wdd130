@@ -25,11 +25,26 @@ body {
 
 .employee img {
     display: block;
-    width: 100%;
+    width: 25%;
     height: auto;
 }
 
 h1 {
+    font-family: var(--heading-font);
+    color: #FF7A00;
+    top: 425px;
+    left: -150px;
+    font-size: 2rem;
+}
+h2 {
+    font-family: var(--heading-font);
+    color: #023047;
+    top: 425px;
+    left: -150px;
+    font-size: 1.5rem;
+}
+
+h3 {
     font-family: var(--heading-font);
     color: #FB8500;
     top: 425px;
@@ -42,6 +57,8 @@ h1 {
     text-align: left;
     font-size: 1rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 1100px;
+
 }
 
 form {
@@ -102,29 +119,31 @@ legend {
     
 }
 
+
 header {
-    margin: 1rem auto;
+    margin: 2rem auto;
     display: grid;
     grid-template-columns: 200px 1fr;
     align-items: center;
     border-bottom: 1px solid #ccc;
-    max-width: 1000px;
+    max-width: 800px;
     padding: 20px;
     background-color: #FFB703;
-    width: 40%;
+    width: 100%;
 }
 
 
 .logo img {
-    margin: 0 0.25rem 0 1rem;
+    margin: 0 0.15rem 0 1rem;
     height: auto;
-    width: 64px;
+    width: 34px;
+
 }
 
 nav {
     margin: 1cm;
     text-align: center;
-    font-size: 1.0cm;
+    font-size: 1.5rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -161,13 +180,23 @@ div {
 footer {
     background-color: #111;
     margin: 50px;
+    width: 100%;
 }
+footer p{
+    color:#eee
+    
 
+}
 
 .sociallinks {
     width: 100%;
     padding: 70px 30px 20px;
 }
+
+.socialicons img{
+    width: 50%;
+}
+
 
 .socialicons {
     display: flex;
@@ -179,14 +208,16 @@ footer {
     padding: 10px;
     background-color: white;
     margin: 10px;
-    border-radius: 50%;
+    border-radius: 100%;
+    width: 10%;
 }
 
 .socialicons a i {
-    font-size: 2em;
+    font-size: 1em;
     color: #111;
     opacity: 0.9;
 }
+
 
 .socialicons a:hover {
     background-color: #111;
@@ -210,7 +241,7 @@ footer {
 
 button {
     margin: 1rem;
-    background-color: navy;
+    background-color:#001F3F;
     color: #fff;
     border:none;
     border-radius: .5rem;
@@ -222,4 +253,69 @@ button:hover {
     background-color: orange
 }
 
+.flexbox-item {
+    width: 250px;
+    margin: 10px;
+    border: 3px solid #333;
+    background-color: #eee;
+}
 
+.flexbox-item-1 {
+    min-height: 100px;
+    font-size: 0.2rem;
+}
+.flexbox-item-1 img {
+    width: 220px;
+}
+
+.flexbox-item-2 {
+    min-height: 200px;
+}
+
+.flexbox-item-2 img {
+    width: 220px;
+}
+
+.flexbox-item-3 {
+    min-height: 100px;
+}
+.flexbox-item-3 img {
+    width: 220px;
+}
+.flexbox-container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 0px;
+}
+
+/* Style for the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for table caption */
+  caption {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #FB8500;
+  }
+  
+  /* Style for table header cells */
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  /* Style for table cells */
+  td {
+    padding: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  /* Add some hover effect to table rows */
+  tr:hover {
+    background-color: #f5f5f5;
+  }
