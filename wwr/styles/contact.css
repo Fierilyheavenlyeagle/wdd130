@@ -184,17 +184,16 @@ footer {
 }
 footer p{
     color:#eee
-    
 
 }
 
 .sociallinks {
-    width: 100%;
+    width: 95%;
     padding: 70px 30px 20px;
 }
 
 .socialicons img{
-    width: 50%;
+    width: 60%;
 }
 
 
