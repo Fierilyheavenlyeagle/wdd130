@@ -52,6 +52,10 @@ h3 {
     font-size: 1.5rem;
 }
 
+h4{
+    padding: 10px;
+}
+
 .ceto {
     margin: 1cm;
     text-align: left;
@@ -218,6 +222,7 @@ footer p{
 }
 
 
+
 .socialicons a:hover {
     background-color: #111;
     transition: 0.5s;
@@ -293,6 +298,7 @@ table {
     width: 100%;
     border-collapse: collapse;
     margin-bottom: 20px;
+    border: 1;
   }
   
   /* Style for table caption */
