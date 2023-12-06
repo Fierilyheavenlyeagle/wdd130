@@ -94,8 +94,7 @@ footer {
 
 .form-item {
     display: grid;
-    align-items: left
-    ;
+    align-items: center;
 }
 
 .column1 {
