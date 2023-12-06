@@ -94,15 +94,17 @@ footer {
 
 .form-item {
     display: grid;
-    align-items: center;
+    align-items: left
+    ;
 }
 
 .column1 {
     
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 2fr 1fr;
     margin: 0.5rem 0;
 }
 
 .column2 {
     grid-template-columns: 1fr 2fr;
 }
+
