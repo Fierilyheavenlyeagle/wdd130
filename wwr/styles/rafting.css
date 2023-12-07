@@ -32,12 +32,9 @@ h1 {
     font-size: 3rem;
 }
 
-h5 {
-    position: absolute;
-    bottom: 300px;
-    width: 900px;
-    right: 1725px;
-    font-size: 0.8cm;
+h2 {
+    position: relative;
+    left: 150px;
 }
 
 .hero {
@@ -237,20 +234,9 @@ footer p {
 
 .FooterBottom p {
     color: white;
-    top: 2100px;
-    left: 465px;
+   
+    top: 2200px;
+    left: 460px;
 }
 
-button {
-    margin: 1rem;
-    background-color: #001f3f;
-    color: #fff;
-    border: none;
-    border-radius: .5rem;
-    padding: .75rem;
-    font-size: 1.0rem;
-}
 
-button:hover {
-    background-color: orange;
-}
