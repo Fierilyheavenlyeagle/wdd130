@@ -34,10 +34,9 @@ form {
     background-color: #eee;
     display: grid;
 }
-
 fieldset {
-    display: grid;
-    grid-gap: .5rem;
+    display: block;
+    grid-gap: 0.5rem;
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.2);
     padding: 1rem;
@@ -54,19 +53,15 @@ label, input, button, select, textarea {
 }
 
 label{
-    text-align: center;
+    text-align: left;
     padding-right: 1rem;
+    display: block;
+    margin-bottom: 20px;
 }
 
 input, select, textarea {
-    padding: 0.5rem;
+    padding: 0.4rem;
     font-size: 1.1rem;
-}
-
-input[type="checkbox"] {
-    width: 22px;
-    height: 22px;
-    vertical-align: bottom;
 }
 
 button {
@@ -97,12 +92,14 @@ footer {
     align-items: center;
 }
 
-.column1 {
-    
-    grid-template-columns: 3fr 1fr;
-    margin: 0.5rem 0;
+textarea{
+    margin-bottom: 20px;
 }
 
-.column2 {
-    grid-template-columns: 1fr 2fr;
+input{
+    margin-bottom: 20px;
+}
+
+select{
+    margin-bottom: 20px;
 }
