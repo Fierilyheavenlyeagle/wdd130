@@ -13,11 +13,11 @@ body {
     font-family: var(--paragraph-font);
 }
 
-h3 {
+p {
     position: absolute;
     font-family: var(--heading-font);
     color: white;
-    top: 460px;
+    top: 170px;
     left: 200px;
     font-size: 1rem;
     width: 500px;
@@ -27,7 +27,7 @@ h1 {
     position: absolute;
     font-family: var(--heading-font);
     color: #fb8500;
-    top: 350px;
+    top: 0;
     left: 550px;
     font-size: 3rem;
 }
@@ -40,20 +40,23 @@ h5 {
     font-size: 0.8cm;
 }
 
+.hero {
+    position: relative;
+}
+
 article {
     float: right;
     position: absolute;
     left: 800px;
     opacity: 0.8;
     width: 300px;
-    top: 500px;
+    top: 190px;
 }
 
 article img {
     float: right;
     background-color: #219ebc;
     opacity: 1;
-    bottom: 0px;
     margin: 0 0 15px 15px;
     border: 1px solid rgba(0, 0, 0, .3);
     box-shadow: 0 0 30px #777;
@@ -180,11 +183,20 @@ div {
 footer {
     background-color: #111;
     margin: 50px;
+    width: 100%;
+}
+
+footer p {
+    color: #eee;
 }
 
 .sociallinks {
-    width: 100%;
+    width: 95%;
     padding: 70px 30px 20px;
+}
+
+.socialicons img {
+    width: 60%;
 }
 
 .socialicons {
@@ -197,11 +209,12 @@ footer {
     padding: 10px;
     background-color: white;
     margin: 10px;
-    border-radius: 50%;
+    border-radius: 100%;
+    width: 10%;
 }
 
 .socialicons a i {
-    font-size: 2em;
+    font-size: 1em;
     color: #111;
     opacity: 0.9;
 }
@@ -218,10 +231,26 @@ footer {
 
 .FooterBottom {
     background-color: #000;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
 }
 
 .FooterBottom p {
     color: white;
+    top: 2100px;
+    left: 465px;
+}
+
+button {
+    margin: 1rem;
+    background-color: #001f3f;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.0rem;
+}
+
+button:hover {
+    background-color: orange;
 }
