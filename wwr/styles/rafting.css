@@ -1,16 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=K2D:wght@200&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=K2D:wght@200&display=swap');
 
 :root {
     --main-color: orange;
     --pane-padding: 5px 42px;
-    --heading-font: 'K2D', sans-serif;
-    --paragraph-font: 'K2D', sans-serif;
+    --font-family: 'K2D', sans-serif;
 }
 
 body {
     margin: 0;
     padding: 0;
-    font-family: var(--paragraph-font);
+    font-family: var(--font-family);
 }
 
 p {
