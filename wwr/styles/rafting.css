@@ -39,6 +39,11 @@ h2 {
 
 .hero {
     position: relative;
+    width: 100%;
+}
+.hero img{
+    width: 100%;
+
 }
 
 article {
@@ -236,8 +241,8 @@ footer p {
 
 .FooterBottom p {
     color: rgb(5, 5, 5);
-    top: 2170px;
-    left: 500px;
+    top: 2100px;
+    left: 445px;
 }
 
 
