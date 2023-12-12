@@ -131,21 +131,24 @@ header {
     border-bottom: 1px solid #ccc;
     padding: 20px;
     background-color: #ffb703;
-    width: 50%;
+    width: 70%;
 }
 
 .logo img {
     margin: 0 0.25rem 0 1rem;
     height: 100px;
-    width: 34px;
+    width: 20%;
 }
 
 nav {
     text-align: center;
     font-size: 1.5rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-
+  
 .navigation {
     display: flex;
     list-style: none;
@@ -156,7 +159,7 @@ nav {
 }
 
 .navigation a {
-    display: block;
+    display: flex;
     color: navy;
     padding: 20px;
     text-decoration: none;
@@ -177,17 +180,17 @@ div {
 }
 
 footer {
-    background-color: #111;
-    margin: 50px;
-    width: 100%;
+    background-color: #ffffff;
+    margin: 0px;
+    width: 96%;
 }
 
 footer p {
-    color: #eee;
+    color: #000000;
 }
 
 .sociallinks {
-    width: 95%;
+    width: 100%;
     padding: 70px 30px 20px;
 }
 
@@ -197,7 +200,7 @@ footer p {
 
 .socialicons {
     display: flex;
-    justify-content: center;
+    justify-content: right;
 }
 
 .socialicons a {
@@ -226,15 +229,15 @@ footer p {
 }
 
 .FooterBottom {
-    background-color: #000;
-    padding: 10px;
+    background-color: rgb(255, 255, 255)fff;
+    padding: 0;
     text-align: center;
 }
 
 .FooterBottom p {
-    color: white;
+    color: rgb(5, 5, 5);
     top: 2170px;
-    left: 460px;
+    left: 500px;
 }
 
 
